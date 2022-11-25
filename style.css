@@ -1,0 +1,411 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black ;
+}
+
+header h1{
+    color:white ;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;    
+}
+
+h5{
+    color: yellow;
+    text-align: center;
+    font-size: 17px
+}
+
+h2{
+    color: white;
+}
+
+.nav-links{
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.nav-links ul{
+
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+}
+
+.nav-links ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Cocktails{
+    color: green;
+    padding: 15px;
+    border: 5px solid rgb(0, 255, 85);
+    
+}
+
+.Cocktails:hover{
+    border: 5px solid rgb(0, 255, 85);
+    transition: 1s;
+    background: rgb(81, 255, 33);
+    color: black;
+}
+
+.Crepes{
+    color: rgb(255, 255, 0);
+    padding: 15px;
+    border: 5px solid rgb(216, 216, 16);
+}
+
+.Crepes:hover{
+    border: 5px solid rgb(216, 216, 16);
+    background: rgb(216, 216, 16);
+    color: black;
+    transition: 1s;
+}
+
+.Juices{
+    color: rgb(132, 0, 255);
+    padding: 15px;
+    border: 5px solid rgb(247, 0, 255);
+}
+
+.Juices:hover{
+    border: 5px solid rgb(247, 0, 255);
+    background: rgb(247, 0, 255);
+    color: black;
+    transition: 1s;
+    
+}
+
+.Plates{
+    color: rgb(255, 0, 0);
+    padding: 15px;
+    border: 5px solid rgb(184, 19, 19);
+    
+}
+
+.Plates:hover{
+    border: 5px solid rgb(184, 19, 19);
+    background:rgb(184, 19, 19);
+    color: black;
+    transition: 1s;
+}
+
+.content{
+    background-image:url(./images/fructose.jpeg);
+    height: 80vh;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+
+.content_text{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0px;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+}
+
+.specialty{
+padding-top: 100px;
+}
+
+.content_text h1{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+  }
+
+
+.content_text p{
+    background-image: repeating-linear-gradient(
+45deg
+, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    padding-top: 10px;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+.content_text p {
+    font-size: 25px;
+    color: rgb(17, 26, 27);
+    font-size: 40px;
+}
+
+.menu{
+    color: aliceblue;
+    padding-top: 35px;
+}
+
+.cocktails h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    color: green;
+}
+
+.crepes h1 {
+    text-align: center;
+    color: yellow;
+}
+
+crepes h3 {
+    color: yellow;
+}
+
+.logo_img {
+    width: 70px;
+    height: 30px;
+}
+
+.crepes h4{
+    text-align: center;
+    color: rgb(255, 242, 0);
+}
+
+.juices h1{
+    color: rgb(93, 11, 170);
+}
+
+.juices h4{
+    color: rgb(93, 11, 170);
+}
+
+.plates h1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.plates h4{
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.container h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top:200px;
+    margin-bottom: 30px;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;
+}
+
+.social_media{
+    padding-top: 5%;
+}
+
+.whatasapp img{
+    width: 50px;
+    height: 50px;
+}
+
+.whatasapp a{
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.instagram img{
+    width: 50px;
+    height: 50px;
+}
+
+.instagram a{
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+
+.tiktok img{
+    width: 50px;
+    height: 50px;
+}
+
+.tiktok a{
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.instagram{
+    padding-top: 1%;
+}
+
+.tiktok{
+    padding-top: 1%;
+}
+
+.B h2{
+    color: aliceblue;
+    margin-left:10% ;
+    width: 50px;
+    height: 50px;
+
+}
+
+.B{
+    padding-left: 80%;
+    
+}
+
+.A {
+    padding-left: 70px;
+}
+
+.A h2{
+    color: aliceblue;
+    padding-bottom: 10px;
+    
+}
+
+.B a{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #009FE3;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.B a :hover{
+    width: 100%;
+}
+
+.social_media h3{
+    color: rgb(72, 85, 96);
+}
+
+/*drinks*/
+
+.heading{
+    text-align: center;
+    font-size: 36px;
+    padding: 32px;
+    color: #666;
+}
+
+.heading span{
+    color: red;
+    padding: 12px 0;
+}
+
+.specialty .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+
+.specialty .box-container .box{
+    flex: 1 1 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,.1);
+    border: 1.6px solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.specialty .box-container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.specialty .box-container .box .content_specialty{
+    text-align: center;
+    background: #fff;
+    padding: 32px;
+}
+
+.specialty .box-container .box .content_specialty img{
+    margin: 40px 0;
+}
+
+.specialty .box-container .box .content_specialty h3{
+    font-size: 32px;
+    color: #333;
+}
+
+.specialty .box-container .box .content_specialty p{
+    font-size: 20px;
+    color: #666;
+    padding: 12px 0;
+}
+
+.specialty .box-container .box:hover .image{
+    top: 0;
+}
+
+.content_specialty {
+    width: 250px;
+    height: 200px;
+}
+
+.box img {
+    width: 250px;
+    height: 300px;
+}
+.box-container h1{
+    width:max-content;
+    text-align: center;
+    
+    color: darkgreen;
+    padding-top: 30px;
+}
+
+section.titles_drinks h1{
+    text-align: center;
+    font-size: 64px;
+    padding-top: 2%;
+    color: green;
+}
+
+section.title_cocktails h1{
+    color: green;
+}
+
+section.title_crepes h1{
+    color: rgb(225, 255, 0);
+    
+}
+
+
+
+
+
